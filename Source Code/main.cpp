@@ -36,8 +36,6 @@ int main(int argc, char **argv)
 	if (argc < 2)
 	{
 		printf("Usage: myChip8.exe Chip8application\n\n");
-		int pause;
-		std::cin >> pause;
 		return 1;
 	}
 
