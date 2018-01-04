@@ -22,14 +22,14 @@ private:
 	void init();
 
 public:
-	uint8_t  gfx[64 * 32];              // Graphics buffer
+	uint8_t  gfx[2048]           	    //Graphics buffer
 	uint8_t  key[16];                   // Keypad
 	bool drawFlag;                      // Indicates a draw has occurred
 
 	Chip8();
 	~Chip8();
 
-	void Chip8::debugRender();
+	void Chip8::debugRender();	    //Tutorial Recommendation
 	void emulate_cycle();               // Emulate one cycle
 	bool load(const char* file_path);   // Load application
 };
