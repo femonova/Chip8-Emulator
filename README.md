@@ -1,5 +1,5 @@
 # Chip8-Emulator
-Core implementation of Chip-8 Emulator (based of Laurence Muller).
+Core implementation of Chip-8 Emulator (based of Laurence Muller) in C++.
 
 The files accociated woith this project includes the implementation of the opcodes using bitwise operations.
 
